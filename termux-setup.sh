@@ -21,7 +21,9 @@ apt install cowsay && cowsay Bonjour Christ le pong | lolcat
 apt install zsh
 apt install neofetch && neofetch
 cowsay cest cool nest ce pas
-
+apt install fish
+echo il faut taper: fish \net tu appuie sur entrer
+chsh
 echo nettoyons tous ca 
 sleep 2
 clear
@@ -34,12 +36,11 @@ echo "╱╱╱╭━╮╱╱╱╱╭━╮╱╱╱
 ┃╰╰▔▔╲╰┻╯┈╱▔▔╯╯┃
 ╰━━━╮┈▔▔▔▔┈╭━━━╯
 ╱╱╱╱┃┊┊┊┊┊┊┃╱╱╱╱
-╭━╮╱┃┈┈╭╮┈┈┃╱╭━╮
+╭━╮╱┃┈┈╭╮┈┈┃╱╭━╮ Mouroufie Kouakou Christ Desire (MKCD)
 ╰┳╯╱┃┈┈┃┃┈┈┃╱╰┳╯
 ┻┻┈╭╯┈┈┣┫┈┈╰╮┈┻╨
 ╭╮▔╰┻┻━╯╰━┻┻╯▔┈┻
 "
-apt install screenfetch
 screenfetch -A 'Ubuntu'
 sleep 2
 clear
@@ -54,5 +55,5 @@ echo " echo 'bienvenu dans termux Tonton Christ
 ..__..
 {o,o}
 /)__) ---|lolcat'" >> termux-login.sh
-
+fish 
 
