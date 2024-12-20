@@ -1,28 +1,29 @@
-apt install lolcat && lolcat 'toi Christ tu est un vieux pong'
+apt install python
+pip install lolcat && lolcat 'toi Christ tu est un vieux pong'
 echo au suivant
 sleep 2
 apt install sl && sl
 echo
+apt install figlet 
 figlet on continue 
-sleep 1
+sleep 3
 apt install nyancat
-apt install git python -y
 apt install termux-api -y
-apt install sreenfetch -y
+apt install screenfetch -y
 apt install vim -y
-apt update
-apt install figlet && figlet nylock
-apt install rich -y && rich
+# apt update
+pip install rich-cli -y && rich $(cat $0)
 apt install cmatrix -y
 apt install lsd
 lsd
 apt install tmux -y
 apt install cowsay && cowsay Bonjour Christ le pong | lolcat
 apt install zsh
-neofetch
-cowsay c'est cool n'est ce pas
+apt install neofetch && neofetch
+cowsay cest cool nest ce pas
 
 echo nettoyons tous ca 
+sleep 2
 clear
 apt install toilet 
 echo "╱╱╱╭━╮╱╱╱╱╭━╮╱╱╱
@@ -38,7 +39,9 @@ echo "╱╱╱╭━╮╱╱╱╱╭━╮╱╱╱
 ┻┻┈╭╯┈┈┣┫┈┈╰╮┈┻╨
 ╭╮▔╰┻┻━╯╰━┻┻╯▔┈┻
 "
+apt install screenfetch
 screenfetch -A 'Ubuntu'
+sleep 2
 clear
 apt install asciinema
 
