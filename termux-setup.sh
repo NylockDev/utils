@@ -1,10 +1,14 @@
 apt install python
-pip install lolcat && lolcat 'toi Christ tu est un vieux pong'
+pip install lolcat && echo toi Christ tu est un vieux pong| lolcat
+sleep 8
 echo au suivant
-sleep 2
+sleep 14
 apt install sl && sl
 echo
-apt install figlet 
+sleep 5 && echo :)
+
+apt install figlet
+clear
 figlet on continue 
 sleep 3
 apt install nyancat
@@ -22,9 +26,9 @@ apt install cowsay && cowsay Bonjour Christ le pong | lolcat
 apt install zsh
 apt install neofetch && neofetch
 cowsay cest cool nest ce pas
-apt install fish
+apt install zsh -y
 clear
-echo "il faut taper: fish \n et tu appuie sur entrer"
+echo "il faut taper: zsh \n et tu appuie sur entrer"
 chsh
 echo nettoyons tous ca 
 sleep 2
@@ -57,5 +61,5 @@ echo " echo 'bienvenue dans termux Tonton Christ
 ..__..
 {o,o}
 /)__) ---|" lolcat >> termux-login.sh
-fish 
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
