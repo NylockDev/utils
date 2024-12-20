@@ -12,8 +12,9 @@ apt install termux-api -y
 apt install screenfetch -y
 apt install vim -y
 # apt update
-pip install rich-cli -y && rich $(cat $0)
-apt install cmatrix -y
+pip install rich-cli  && rich $(cat $0)
+sleep 2
+apt install cmatrix -ygg
 apt install lsd
 lsd
 apt install tmux -y
@@ -22,7 +23,8 @@ apt install zsh
 apt install neofetch && neofetch
 cowsay cest cool nest ce pas
 apt install fish
-echo il faut taper: fish \net tu appuie sur entrer
+clear
+echo "il faut taper: fish \n et tu appuie sur entrer"
 chsh
 echo nettoyons tous ca 
 sleep 2
@@ -51,9 +53,9 @@ echo ' NYLOCK DEV tes le meuilleur|'
 echo '============================|'
 echo 'bon cest fini' | lolcat
 cd $PREFIX/etc
-echo " echo 'bienvenu dans termux Tonton Christ 
+echo " echo 'bienvenue dans termux Tonton Christ 
 ..__..
 {o,o}
-/)__) ---|lolcat'" >> termux-login.sh
+/)__) ---|" lolcat >> termux-login.sh
 fish 
 
